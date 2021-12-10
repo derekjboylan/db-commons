@@ -1,0 +1,23 @@
+{
+  "name": "db-commons",
+  "version": "0.0.0",
+  "description": "npm common packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/derekjboylan/db-commons.git",
+  "author": "derekjboylan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekjboylan/db-commons/issues"
+  },
+  "homepage": "https://github.com/derekjboylan/db-commons#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.3"
+  },
+  "workspaces": ["src/*"],
+  "private": true
+}
